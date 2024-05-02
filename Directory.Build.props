@@ -82,7 +82,7 @@
     <FxCopAnalyzersVersion>3.3.0</FxCopAnalyzersVersion>
     <SystemTextEncodingsWebVersion>4.7.2</SystemTextEncodingsWebVersion>
     <AzureSecurityKeyVaultSecretsVersion>4.6.0</AzureSecurityKeyVaultSecretsVersion>
-    <AzureIdentityVersion>1.11.1</AzureIdentityVersion>
+    <AzureIdentityVersion>1.11.2</AzureIdentityVersion>
     <AzureSecurityKeyVaultCertificatesVersion>4.6.0</AzureSecurityKeyVaultCertificatesVersion>
     <MicrosoftGraphVersion>4.36.0</MicrosoftGraphVersion>
     <MicrosoftGraphBetaVersion>4.57.0-preview</MicrosoftGraphBetaVersion>
@@ -105,7 +105,7 @@
     <MicrosoftExtensionsConfigurationBinderVersion>9.0.100-preview.2.24157.14</MicrosoftExtensionsConfigurationBinderVersion>
     <MicrosoftExtensionsDependencyInjectionVersion>$(NetNineRuntimeVersion)</MicrosoftExtensionsDependencyInjectionVersion>
   </PropertyGroup>
-  
+
   <PropertyGroup Condition="'$(TargetFramework)' == 'net8.0'">
     <MicrosoftAspNetCoreAuthenticationJwtBearerVersion>8.0.0</MicrosoftAspNetCoreAuthenticationJwtBearerVersion>
     <MicrosoftAspNetCoreAuthenticationOpenIdConnectVersion>8.0.0</MicrosoftAspNetCoreAuthenticationOpenIdConnectVersion>
