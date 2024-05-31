@@ -17,7 +17,9 @@ namespace Microsoft.Identity.Web
 
         public HttpClient GetHttpClient()
         {
-            HttpClient httpClient = _httpClientFactory.CreateClient();
+            // The HttpClient will be created with the named client registered in the DI container
+            // If the named client is not found, the factory will fall back to the default client
+            HttpClient httpClient = _httpClientFactory.CreateClient("token_acquisition_httpclient");
             httpClient.DefaultRequestHeaders.Add(Constants.TelemetryHeaderKey, IdHelper.CreateTelemetryInfo());
             return httpClient;
         }
