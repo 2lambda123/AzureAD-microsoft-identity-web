@@ -22,6 +22,8 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.Graph.Beta" Version="5.56.0-preview" />
+    <PackageReference Include="Microsoft.IdentityModel.JsonWebTokens" Version="8.0.1" />
+    <PackageReference Include="Microsoft.IdentityModel.Protocols.OpenIdConnect" Version="8.0.1" />
   </ItemGroup>
 
   <ItemGroup>
