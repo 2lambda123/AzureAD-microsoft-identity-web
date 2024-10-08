@@ -18,19 +18,19 @@
   <ItemGroup>
     <PackageReference Include="BenchmarkDotNet" Version="0.13.8" />
     <PackageReference Include="Microsoft.Identity.Lab.Api" Version="0.13.2" />
-    <PackageReference Include="System.Text.Json" Version="8.0.4" />
+    <PackageReference Include="System.Text.Json" Version="8.0.5" />
   </ItemGroup>
 
   <ItemGroup Condition="'$(UseWilson7)' == 'true'">
-    <PackageReference Include="Microsoft.IdentityModel.JsonWebTokens" Version="8.0.0" />
-    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.0.0" />
+    <PackageReference Include="Microsoft.IdentityModel.JsonWebTokens" Version="8.1.1" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.1.1" />
     <PackageReference Include="Microsoft.IdentityModel.Protocols.OpenIdConnect" Version="7.0.2" />
     <PackageReference Include="Microsoft.IdentityModel.Validators" Version="7.0.2" />
   </ItemGroup>
 
   <ItemGroup Condition="'$(UseWilson7)' == 'false'">
-    <PackageReference Include="Microsoft.IdentityModel.JsonWebTokens" Version="8.0.0" />
-    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.0.0" />
+    <PackageReference Include="Microsoft.IdentityModel.JsonWebTokens" Version="8.1.1" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.1.1" />
     <PackageReference Include="Microsoft.IdentityModel.Protocols.OpenIdConnect" Version="6.32.3" />
     <PackageReference Include="Microsoft.IdentityModel.Validators" Version="6.32.3" />
     <!--<RdXmlFile Include="rd.xml" />-->
